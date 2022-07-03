@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Subash G</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Educational Details">Educational
+                            Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#Technologies Learnt" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Technologies Learnt
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#Technologies Learnt">HTML</a></li>
+                            <li><a class="dropdown-item" href="#Technologies Learnt">CSS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#Technologies Learnt">JAVA SCRIPT</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Previous Project" tabindex="-1" aria-disabled="true">Previous
+                            Project</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1648737155328-0c0012cf2f20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="image1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1648737966670-a6a53917ed19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNjN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="image2" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1648737965782-94fb1b30f768?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMzd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="image3" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section id="Educational Details">
+        <h1>Educational Details:</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">S.no</th>
+                    <th scope="col">Standard</th>
+                    <th scope="col">School/college</th>
+                    <th scope="col">Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>10th</td>
+                    <td>Milton Matriculation School</td>
+                    <td>92.5</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>12th</td>
+                    <td>PSG Sarvajana Higher Secondary School</td>
+                    <td>67.5</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Degree</td>
+                    <td>Sri Krishna Arts and Science College</td>
+                    <td>71.5</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="Hobbies">
+        <h1>Hobbies:</h1>
+        <div class="container">
+            <div class="image1">
+
+
+                <img src="https://images.unsplash.com/photo-1656426630273-ca84171a2010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNjh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="rounded float-start" alt="image1">
+
+
+
+                <p>Riding, sit amet consectetur adipisicing elit. Placeat dolore et sint voluptas, voluptatem labore
+                    iure quas. Commodi voluptate cumque provident facere sed sint placeat, reprehenderit voluptatibus
+                    consectetur beatae illum porro atque aperiam ullam hic harum excepturi, nemo neque. Sint dolorem sed
+                    enim obcaecati illo fugit error qui repudiandae quia magni deleniti ipsa officia facilis
+                    exercitationem, laboriosam itaque amet, eius nam animi? Delectus ab placeat veritatis quos nulla
+                    nostrum molestiae obcaecati veniam fugit laudantium nobis tempore blanditiis mollitia sapiente
+                    inventore soluta porro odio suscipit autem, recusandae laborum quo corrupti dicta! Consequuntur
+                    distinctio magnam saepe error voluptatibus hic, iusto ipsum eaque incidunt nam atque eius officia
+                    necessitatibus. A accusantium possimus nobis asperiores dicta odit eum id ipsa est distinctio qui
+                    laudantium aut explicabo, numquam minus similique impedit aliquid voluptatem odio assumenda magnam
+                    harum autem corrupti! Blanditiis vitae veniam accusamus labore similique minima, molestiae excepturi
+                    quas nihil incidunt non tempore quis neque perspiciatis sit asperiores. Voluptates exercitationem,
+                    officiis laboriosam ducimus adipisci accusamus doloribus neque aperiam a! Accusamus labore placeat
+                    perferendis ratione, repudiandae incidunt qui deserunt ducimus quis voluptatibus iure sapiente
+                    eveniet sit. Aliquid ex itaque ut, et architecto fugit ratione, doloremque ducimus doloribus numquam
+                    mollitia commodi tempore illum incidunt dignissimos quas ea!</p>
+            </div>
+            <div class="image1">
+
+                <img src="https://images.unsplash.com/photo-1656824249722-65d681fbde4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    class="rounded float-start" alt="image1">
+
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus minima id vero atque iusto quas
+                    officia sed doloribus, delectus fugit nam recusandae dolores quaerat deserunt minus. Illum ducimus
+                    in quidem porro ipsum commodi doloribus qui alias minus possimus assumenda, similique distinctio
+                    atque. Maiores distinctio ut fugit dignissimos voluptatem eligendi culpa quod similique cupiditate
+                    rem. Consequuntur voluptatum atque adipisci, sint in optio magnam quidem labore nisi, temporibus
+                    quibusdam quos similique aspernatur commodi earum nulla, est cupiditate voluptate. Totam adipisci
+                    magnam ullam aliquam porro numquam autem obcaecati consequatur optio. Illo voluptates nisi quisquam
+                    tempore, nobis illum neque ab autem ratione maxime deleniti eum ipsam iste natus soluta aliquid
+                    delectus expedita. Nobis quasi voluptatem sit? Eaque illum odit tempore quidem ab, ut a quisquam,
+                    perspiciatis molestiae quo eligendi, voluptatibus beatae molestias! Recusandae perspiciatis adipisci
+                    nihil, dignissimos fugit quaerat cumque doloremque minima eaque tempora facere laudantium sapiente
+                    expedita eveniet vel accusamus totam dolorum perferendis. Nulla suscipit facere officiis dolorum,
+                    nam non porro minus dignissimos modi quis? Esse, error repudiandae aut sed, facere laudantium eum
+                    perferendis commodi quae minus sit maxime quas, qui cumque impedit! Beatae voluptatum recusandae
+                    ducimus delectus numquam cum est! Enim illo dolores itaque laborum aliquid perspiciatis hic eveniet,
+                    laudantium ad a!</p>
+            </div>
+            <div class="image1">
+
+                <img src="https://images.unsplash.com/photo-1656794302283-8b7ac9f62fc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    class="rounded float-start" alt="image1">
+
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus hic non, similique, assumenda,
+                    optio illum nobis quam blanditiis adipisci recusandae modi rem consequuntur cupiditate? Sit sint,
+                    tempora pariatur eaque reprehenderit molestiae velit iste corrupti explicabo nesciunt obcaecati
+                    repudiandae praesentium eum nobis ducimus doloribus ipsam maiores, illo accusantium officiis
+                    laboriosam dolores minus exercitationem? Dignissimos eum pariatur amet deleniti, et incidunt maxime
+                    tenetur velit recusandae eligendi deserunt reiciendis aperiam alias eius! Assumenda, nisi omnis
+                    laboriosam unde perspiciatis quisquam ea veritatis placeat culpa? Minus numquam molestias non
+                    officia dolorum at temporibus placeat ipsum? Laudantium nesciunt, qui dolorum modi tenetur placeat
+                    ipsum explicabo ea natus pariatur error mollitia quis, iste ad. Quae architecto eos reprehenderit
+                    nihil! Blanditiis libero impedit at tenetur nulla, unde autem sunt. Amet velit accusantium mollitia
+                    sed tenetur. Cum quasi eaque eum dolor? Ab doloremque cum pariatur assumenda! Illum eveniet rem qui
+                    ullam quo. Eius enim maxime, praesentium ipsum iste voluptatum reprehenderit perferendis
+                    consequuntur harum obcaecati quaerat consequatur nisi iure atque dignissimos hic. Nulla nesciunt
+                    laudantium pariatur accusantium impedit, voluptatibus iure maiores, veritatis, sit nostrum
+                    voluptates? Corrupti deleniti rerum accusantium nihil soluta iste cum aliquam excepturi minus
+                    perspiciatis? Inventore, eius quibusdam expedita consequatur blanditiis exercitationem consectetur
+                    assumenda hic facilis voluptatem. Dolore.</p>
+                    
+            </div>
+            <div class="image1">
+
+                <img src="https://images.unsplash.com/photo-1656764984996-6c93471ce2cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="rounded float-start" alt="image1">
+
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatem repellendus distinctio quas
+                    sit alias mollitia unde dolorum ex harum, laborum, debitis pariatur. Voluptates, odit numquam
+                    obcaecati quaerat possimus incidunt! Vitae, quaerat veritatis. Earum sequi eum deleniti nesciunt!
+                    Facere ad, unde molestiae, deserunt eius vero possimus corporis id mollitia veniam enim dolorem
+                    aperiam repellat voluptatem ipsa laborum! Dolor, nisi numquam? Laborum praesentium fugiat sapiente
+                    vel assumenda blanditiis iusto, nihil architecto, suscipit totam cum veritatis? Eligendi, veritatis
+                    mollitia numquam excepturi asperiores officia nesciunt dolore facilis, sequi, nemo fugiat itaque
+                    praesentium enim ea. Iste, non consequuntur? Excepturi aspernatur dolorum porro nulla cum velit
+                    consectetur numquam repellendus ratione iste ipsum expedita explicabo dolor impedit aperiam atque
+                    nemo, quasi corrupti aut soluta voluptate molestiae quidem dolorem. Autem debitis nostrum velit
+                    molestias excepturi ipsum vitae error obcaecati est iste in iure similique sequi eaque quis cumque
+                    nam voluptatem quam fuga a, necessitatibus, natus tempore reprehenderit! Placeat odit quas ea
+                    accusamus excepturi veniam nostrum ipsa distinctio quaerat, vero aperiam fugiat hic est molestias
+                    voluptatum non accusantium! Nesciunt, vel quia cum ipsum, assumenda iusto odit neque minus, vitae
+                    natus odio distinctio reiciendis dolore. Animi, fugiat qui nam doloribus officiis cumque impedit
+                    illum. Inventore neque error eos asperiores!</p>
+            </div>
+
+            <!-- <div class="image2">
+                    
+                        <img src="https://images.unsplash.com/photo-1656354810324-25c67b0d4e4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMzJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            class="rounded float-start" alt="image1">
+                    
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo commodi doloribus facere
+                            asperiores? Praesentium magni dolore architecto hic labore sint fuga maxime explicabo? Neque
+                            dignissimos quisquam eveniet suscipit obcaecati consectetur velit illo itaque
+                            necessitatibus.
+                            </p>
+                    
+                </div> -->
+
+
+
+
+        </div>
+
+
+
+        </div>
+    </section>
+    <section id="Technologies Learnt">
+        <h1>Technologies Learnt</h1>
+        
+        <div class="container1">
+            
+            <ul class="list-group">
+                <li class="list-group-item">Technologies Learnt</li>
+
+                <li class="list-group-item list-group-item-primary">Linux</li>
+                <li class="list-group-item list-group-item-secondary">HTML</li>
+                <li class="list-group-item list-group-item-success">CSS</li>
+                <li class="list-group-item list-group-item-danger">jAVA SCRIPT</li>
+                <li class="list-group-item list-group-item-warning">BOOT STRAP</li>
+
+            </ul>
+        
+    </div>
+    </section>
+    <section id="Previous Project">
+    <h1>Previous Project</h1>
+    <div class="container1">
+        
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    nSAP/vSAP
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                     <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
+                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. --> 
+     <P>It was the sap based Project . In that we will create  new Job , execute the Job , move the files from one directory to other directory</P>
+                </div>
+            </div> 
+     </div> 
+     <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Ipro
+                </button> 
+     </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                     <!-- <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow. --> 
+     <p>Incidents Assignment and Proactive monitoring Works</p>
+                </div>
+            </div>
+        </div> 
+     <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    FRPA
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow. --> 
+     <P>Monitoring the Jobs and ping Failure Job status to onshore team</P>
+                </div> 
+    </div>
+        </div> 
+     </div> 
+</div>
+</section> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
